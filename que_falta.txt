@@ -1,0 +1,19 @@
+Vamos a continuar con el Panel de Limpieza y 
+luego la Ventana Principal para empezar a ver todo funcionando junto.
+
+Seguiria luego de ver el funcionamiento general, las importaciones de archivos
+junto con lo que es el historial (segunda ventana)
+
+
+OBJETIVO MÀS ADELANTE: Hacer que las ediciones y creacion de acomodadores, vigilancia
+u otra cosa se todo desde la misma interfaz... no desde el codigo (osea, dejarlo
+totalmente funcional con actualizaciones periodicas sin tener que volver a 
+instalar; e inclusive, luego hacer una db quiza en mysql ya habiendo hecho el 
+backup desde sqlite3, integrarla en linea para que todos los que quieran puedan
+acceder y ver los datos desde la app por ahora de PC, pero sin poder manupular...
+De eso, solo podre yo por el momento (se precisara login),)
+
+Lo firmo aqui, que esta aplicacion sin fines de lucro servirà para quienes tienen 
+o tendran que asignar, luego de mi despedida de esta labor, lo haran desde alli...
+(POr ejemplo, si no tienen pc, mediante el login les doy permiso en su dispo-
+sitivo movil y lo hacen)

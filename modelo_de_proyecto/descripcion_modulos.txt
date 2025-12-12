@@ -1,0 +1,45 @@
+🏗️ Descripción de Módulos Principales
+1. config/ - Configuración
+
+settings.py: Configuraciones generales (rutas, BD, API keys)
+constants.py: Colores, fuentes, tamaños, textos estáticos
+
+2. models/ - Modelos de Datos
+
+asignacion.py: Clase para asignaciones (semana, personas, tipo)
+persona.py: Clase para acomodadores/vigilantes
+semana.py: Clase para información de semanas
+
+3. database/ - Capa de Datos
+
+db_manager.py: Conexión y gestión de BD
+repositories/: Patrón Repository para acceso a datos
+
+Separa la lógica de BD de la lógica de negocio
+
+
+
+4. services/ - Lógica de Negocio
+
+asignacion_service.py: CRUD de asignaciones
+fecha_service.py: Cálculo de fechas, semanas especiales
+grupo_limpieza_service.py: Rotación de grupos
+seleccion_service.py: Selección aleatoria inteligente
+export_service.py: Exportación a múltiples formatos
+
+5. ui/ - Interfaz de Usuario
+
+main_window.py: Ventana principal con pestañas
+components/: Componentes reutilizables
+
+Cada panel es independiente y reutilizable
+
+
+pages/: Páginas completas
+dialogs/: Ventanas emergentes
+themes/: Gestión de temas (claro/oscuro)
+
+6. utils/ - Utilidades
+
+Funciones auxiliares compartidas
+Sin dependencias con otras capas

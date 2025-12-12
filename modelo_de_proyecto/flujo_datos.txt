@@ -1,0 +1,7 @@
+UI (Interfaz) 
+    ↓
+Services (Lógica de Negocio)
+    ↓
+Repositories (Acceso a Datos)
+    ↓
+Database (Base de Datos)
